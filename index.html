@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <form action="">
+        <div class="container">
+            <div class="name">
+                <label for=""><b>Name<span>*</span></b></label><br>
+                <div style="display: inline-block; padding-right: 30px;">
+                    <input type="text" name="first" id="f_name" required><br>
+                    <label for="f_name">First</label>
+                </div>
+                <div style="display: inline-block; padding-right: 10px;">
+                    <input type="text" name="last" id="l_name" required><br>
+                    <label for="l_name">Last</label>
+                </div>
+            </div>
+            <div style="display: inline-block; padding-right: 10px; margin-top: 15px;">
+                <label for="email"><b>Email</b></label><br>
+                <input type="email" name="email" id="email" required style="width: 505px;"><br>
+            </div>
+            <!-- <div class="row">
+                <label for="exp" style="margin-top: 25px;"><b>Your Experience<span>*</span></b></label><br>
+            </div> -->
+            <div class="form-group">
+                <label for="inputfirst" style="margin-top: 20px;">Your Experience<span
+                        style="color:#ff0000">*</span></label>
+                <div class="rating" style="margin-left: 10px;">
+                    <input type="radio" name="star" id="star1">
+                    <label for="star1"></label>
+                    <input type="radio" name="star" id="star2">
+                    <label for="star2"></label>
+                    <input type="radio" name="star" id="star3">
+                    <label for="star3"></label>
+                    <input type="radio" name="star" id="star4">
+                    <label for="star4 "></label>
+                    <input type="radio" name="star" id="star5">
+                    <label for="star5"></label><br>
+                </div>
+            </div>
+            <br />
+
+            <label for="" style="margin-top: 10px;">Overall, how would you rate your expereince with us</label>   
+            <!-- How satisfied are you -->
+
+            <div class="optional_rating" style="margin-top: 15px;">
+                <label for=""><b>How satisfied are you with<span>*</span></b></label><br>
+                <div class="row" style="text-align: center;">
+                    <div class="col-2">
+                        <label for="">&nbsp</label>
+                    </div>
+                    <div class="col-2">
+                        <label for="">Very Unsatisfied</label>
+                    </div>
+                    <div class="col-2">
+                        <label for="">Unsatisfied</label>
+                    </div>
+                    <div class="col-2">
+                        <label for="">Neutral</label>
+                    </div>
+                    <div class="col-2">
+                        <label for="">Satisfied</label>
+                    </div>
+                    <div class="col-2">
+                        <label for="">Very Satisfied</label>
+                    </div>
+                </div>
+                <div class="row bg-ro">
+                    <div class="col-2">
+                        <label for="">Purchase</label>
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Purchase" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Purchase" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Purchase" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Purchase" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Purchase" class="IP">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <label for="">Service</label>
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Service" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Service" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Service" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Service" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Service" class="IP">
+                    </div>
+                </div>
+                <div class="row bg-ro">
+                    <div class="col-2">
+                        <label for="">Company Overall</label>
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Comp" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Comp" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Comp" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Comp" class="IP">
+                    </div>
+                    <div class="col-2 IP">
+                        <input type="radio" name="Comp" class="IP">
+                    </div>
+                </div>
+                <!-- How likely are you to -->
+                <div class="optional_rating" style="margin-top: 55px;">
+                    <label for=""><b>How satisfied are you with<span>*</span></b></label><br>
+                    <div class="row" style="text-align: center;">
+                        <div class="col-2">
+                            <label for="">&nbsp</label>
+                        </div>
+                        <div class="col-2">
+                            <label for="">Very unsatisfied</label>
+                        </div>
+                        <div class="col-2">
+                            <label for="">Unsatisfied</label>
+                        </div>
+                        <div class="col-2">
+                            <label for="">Neutral</label>
+                        </div>
+                        <div class="col-2">
+                            <label for="">Satisfied</label>
+                        </div>
+                        <div class="col-2">
+                            <label for="">Very Satisfied</label>
+                        </div>
+                    </div>
+                    <div class="row bg-ro">
+                        <div class="col-2">
+                            <label for="">Buy from us again</label>
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="1" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="1" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="1" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="1" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="1" class="IP">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="">Recommend our product to others</label>
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="2" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="2" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="2" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="2" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="2" class="IP">
+                        </div>
+                    </div>
+                    <div class="row bg-ro">
+                        <div class="col-2">
+                            <label for="">Recommend our company to others</label>
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="3" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="3" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="3" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="3" class="IP">
+                        </div>
+                        <div class="col-2 IP">
+                            <input type="radio" name="3" class="IP">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Additional_comments" style="margin-top: 15px;">
+                <label for=""><b>Additional comments or suggestions</b></label><br>
+                <div class="row">
+                    <textarea name="comments" id="" cols="150" rows="10" style="border-radius: 4px;"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Submit" style="margin-top: 15px;">
+        </div>
+    </form>
+</body>
+
+</html>
